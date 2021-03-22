@@ -46,7 +46,7 @@ class DBmapReader {
         } catch (Exception e ) {
             System.out.println("SERVER DBmapReader readData(): failed to read data from file. " +
                     "Error message: " + e.getMessage());
-            e.printStackTrace();
+            //e.printStackTrace();
             Map<Long, String> newMap = new HashMap<>();
             return newMap;
         }
